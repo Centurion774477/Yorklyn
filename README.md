@@ -9,6 +9,8 @@ Yorklyn takes a plain text file, wraps it in HTML boilerplate, adds a blank styl
 
 All you have to do is change the header and optionally link a stylesheet.
 
+# Use Yorklyn
+
 In order to use Yorklyn, install it on your machine with git clone and optionally add it to your path so it's globally available. Then, the one line command is: 
 `ocaml yorklyn.ml <your_text_file> <name_of_html_file>`
 
