@@ -5,7 +5,7 @@ Writing is fun, but it's pretty hard to share your ideas without a blog, and in 
 The problem is you can't just copy and paste your writing into an HTML file and add some boilerplate. 
 Instead, you have to manually go through each line and add <br> at the end of it, otherwise your writing will be formatted quite weirdly.
 
-Yorklyn takes a plain text file, wraps it in HTML boilerplate, adds a blank stylesheet link -- `<link rel="stylesheet" href="">` -- and adds <br> to the end of your lines.
+Yorklyn takes a plain text file, wraps it in HTML boilerplate, adds a blank stylesheet link -- `<link rel="stylesheet" href="">` -- and adds `<br>` to the end of your lines.
 
 All you have to do is change the header and optionally link a stylesheet.
 
