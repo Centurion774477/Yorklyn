@@ -11,3 +11,7 @@ All you have to do is change the header and optionally link a stylesheet.
 
 In order to use Yorklyn, install it on your machine with git clone and optionally add it to your path so it's globally available. Then, the one line command is: 
 `ocaml yorklyn.ml <your_text_file> <name_of_html_file>`
+
+Naturally, you also need to have OCaml installed. You can find instructions on that [here](https://ocaml.org/install#linux_mac_bsd).
+
+Cheers, and happy writing!
