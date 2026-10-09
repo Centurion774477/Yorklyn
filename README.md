@@ -9,6 +9,12 @@ Yorklyn takes a plain text file, wraps it in HTML boilerplate, adds a blank styl
 
 All you have to do is change the header and optionally link a stylesheet.
 
+# Embedded Yorklyn
+
+You can also embed Yorklyn in HTML. This is for the cases where you still need some of the features of HTML like buttons and links. To do so, just wrap your text in <yorklyn></yorklyn> and you won't have to write any `<br>` tags.
+
+To transpile an HTML file that uses embedded yorklyn, use the embedded_yorklyn.pl script like so: `perl embedded_yorklyn.pl <your_file> <new_file>`.
+
 # Use Yorklyn
 
 In order to use Yorklyn, install it on your machine with git clone and optionally add it to your path so it's globally available. Then, the one line command is: 
